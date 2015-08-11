@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Software Development Made Easy</title>
+
+		<meta name="description" content="What developement should be">
+		<meta name="author" content="Paolo Escobar">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<style>
+		/*********************************************
+		 * TAGCLOUD
+		 *********************************************/
+		span.clouditem {
+		  padding-left: 0.15em;
+		  padding-right: 0.15em;
+		  line-height: 90%;
+		}
+		</style>		
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Software development made easy</h1>
+					<p>
+						<small>Created by Paolo Escobar / <a href="http://twitter.com/pao_esco">@pao_esco</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Paolo Escobar</h2>
+					<p>Java Architect at Sopra Steria</p>
+					<p></p>
+				 </section>
+
+				<section tagcloud>
+					DevOps
+					PaaS
+					Continuous Delivery
+					Jenkins
+					Framework
+					Microservice
+					Heroku 
+					TravisCI 
+					VersionEye
+					Docker
+					New Relic APM
+					Coveralls
+					Monitoring
+					Logging
+					SOA
+				</section>
+				
+				<section>
+					<section>
+					<h2>Can you set an application environment in 30 minutes ?</h2>
+					</section>
+					<section>
+						<h2>SCM</h2>
+						<video controls="controls">
+						  <source src="media/softdevmadeeasy_01_scm.webm" type="video/webm" />
+						  Not available
+						</video>
+					</section>
+					<section>
+						<h2>Continuous Integration</h2>
+						<video controls="controls">
+						  <source src="media/softdevmadeeasy_02_ci.webm" type="video/webm" />
+						  Not available
+						</video>
+					</section>
+					<section>
+						<h2>Platform</h2>
+						<video controls="controls">
+						  <source src="media/softdevmadeeasy_03_platform.webm" type="video/webm" />
+						  Not available
+						</video>
+					</section>
+					<section>
+						<h2>Dependencies</h2>
+						<video controls="controls">
+						  <source src="media/softdevmadeeasy_04_dependencies.webm" type="video/webm" />
+						  Not available
+						</video>
+					</section>
+					<section>
+						<h2>Quality</h2>
+						<video controls="controls">
+						  <source src="media/softdevmadeeasy_05_quality.webm" type="video/webm" />
+						  Not available
+						</video>
+					</section>
+					<!--
+					<section>
+						<h2>Logging</h2>
+						<video controls="controls">
+						  <source src="media/softdevmadeeasy_06_logging.webm" type="video/webm" />
+						  Not available
+						</video>
+					</section>
+					<section>
+						<h2>Monitoring</h2>
+						<video controls="controls">
+						  <source src="media/softdevmadeeasy_07_monitoring.webm" type="video/webm" />
+						  Not available
+						</video>
+					</section>
+					-->
+				</section>
+				
+				<section>
+					<h2>But is this realistic ?</h2>
+				</section>
+				 
+				<section>
+					<h2>As a Service</h2>
+					<p>Every stack or tool must be a service</p>
+					<ul>
+						<li>Self-service</li>
+						<li>On-demand</li>
+						<li>Integrated</li>
+						<li>One-click resolution</li>
+					</ul>
+				</section>
+				 
+				<section>
+					<h2>Catalogue of services</h2>
+					<ul>
+						<li>Heroku <a target="_blank" href="https://addons.heroku.com/">Add-ons</a></li>
+						<li>IBM Bluemix <a target="_blank" href="https://console.ng.bluemix.net/?direct=classic/#/store/cloudOEPaneId=store">Catalogue</a></li>
+						<li>OpenShift <a target="_blank" href="https://marketplace.openshift.com/home">marketplace</a></li>
+						<li>And you ?</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Comparative</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Cloud</th>
+								<th>And you ?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Provider</td>
+								<td><a target="_blank" href="https://www.heroku.com/">Heroku</a></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>SCM</td>
+								<td><a target="_blank" href="https://github.com/">GitHub</a></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Runtime</td>
+								<td><a target="_blank" href="http://tomcat.apache.org/">Tomcat</a></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Continuous Integration</td>
+								<td><a target="_blank" href="https://travis-ci.org/">TravisCI</a></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Quality</td>
+								<td><a target="_blank" href="https://coveralls.io/">Coveralls</a></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Dependencies</td>
+								<td><a target="_blank" href="https://www.versioneye.com/">VersionEye</a></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Logs</td>
+								<td><a target="_blank" href="https://papertrailapp.com/">Papertrail</a></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Monitoring</td>
+								<td><a target="_blank" href="http://newrelic.com/application-monitoring">New Relic APM</a></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				
+				<section>
+					<h2>And Operations ?</h2>
+					<ul>
+						<li>Software Operations Made Easy</li>
+						<li><a target="_blank" href="https://blog.openshift.com/announcing-openshift-3-roadshow-get-hands-on-with-openshift-3/">OpenShift Roadshow 2015</a></li>
+						<li>Standardisation</li>
+						<li>Security</li>
+						<li>Routing</li>
+						<li>Load-balancing</li>
+						<li>Container</li>
+						<li><a target="_blank" href="https://enterprise.openshift.com/features/">Many other features</a></li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Thank you for your attention</h2>
+					<img src="media/questions.png"/>
+				</section>
+				
+				<section>
+					<h2>Going further...</h2>
+					<p>Devops</p>
+					<p>Software craftsmanship</p>
+					<p>Test Driven Development</p>
+				</section>
+				
+				<section>
+					<h2>Devops</h2>
+					<p><a target="_blank" href="http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley-ebook/dp/B003YMNVC0">Book Continuous Delivery</a></p>
+					<p><a target="_blank" href="http://martinfowler.com/bliki/ContinuousDelivery.html">Martin Fowler's blog</a></p>
+					<p><a target="_blank" href="http://blog.octo.com/continuous-deployment/">Pattern des grands du Web : continuous deployment</a></p>
+					<p><a target="_blank" href="http://blog.octo.com/en/devops-from-continuous-integration-to-continuous-deployment/">DevOps, from continuous integration to continuous deployment</a></p>
+					
+				</section>
+				
+				<section>
+					<h2>Software craftsmanship</h2>
+					<p><a target="_blank" href="https://leanpub.com/socra">Book Software craftsmanship</a></p>
+					<p><a target="_blank" href="http://blog.octo.com/revue-de-code-quel-format-choisir/">Code review</a></p>
+					<p><a target="_blank" href="http://blog.xebia.fr/2015/05/20/decouvrez-le-craftsman-daily-workflow/">Craftsman Daily Workflow</a></p>
+				</section>
+				
+				<section>
+					<h2>Test Driven Development</h2>
+					<p><a target="_blank" href="http://www.amazon.fr/Test-Driven-Development-By-Example/dp/0321146530">Book Test Driven Development: By Example</a></p>
+					<p><a target="_blank" href="http://blog.octo.com/revue-de-code-quel-format-choisir/">Code review</a></p>
+				</section>
+
+				<!--
+				<section>
+					<h2>OLD</h2>
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+					<p>I. Industrialisation</p>
+					<p>II. Services</p>
+					<p>III. Demo</p>
+				</section>
+
+				<section>
+					<h2>Context</h2>
+					<p>Application environment</p>
+					<p>From code to deployment</p>
+				</section>
+
+				<section>
+					<h2>Objectives of this presentation</h2>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</section>
+
+				<section>
+					<section>
+						<h2>I. Industrialisation</h2>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>What ?</h2>
+						<p><a target="_blank" href="http://en.wikipedia.org/wiki/Industrialisation">Wikipedia</a></p>
+					</section>
+					<section>
+						<h2>Examples of NON industrialised software</h2>
+						<ul>
+							<li>Complex installation for developers</li>
+							<li>Any manual operation</li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</section>
+					<section>
+						<h2>What it should NOT be</h2>
+						<p>Heavy processes</p>
+						<p>Blocking innovation</p>
+						<p>Blocking personal initiative</p>
+					</section>
+					<section>
+						<h2>What it should be</h2>
+						<p>Lightweight</p>
+						<p>Small changes</p>
+						<p>Increase prototyping</p>
+					</section>
+				</section>
+
+
+				<section>
+					<h2>Why ?</h2>
+					<p>Reduce time</p>
+					<p>Reduce costs</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>How ?</h2>
+					</section>
+					<section>
+						<h2>Integrated environment</h2>
+						<ul>
+							<li>Each stack or tool must be a service</li>
+							<li>Self-service</li>
+							<li>On-demand</li>
+							<li>Everything must be connected</li>
+							<li>One-click resolution</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Platform As A Service</h2>
+						<ul>
+							<li><a target="_blank" href="http://www.cloudfoundry.org/index.html">CloudFoundry</a></li>
+							<li><a target="_blank" href="https://www.heroku.com/">Heroku</a></li>
+							<li><a target="_blank" href="http://www.ibm.com/cloud-computing/bluemix/">IBM Bluemix</a></li>
+							<li><a target="_blank" href="https://www.openshift.com/">OpenShift</a></li>
+							<li><a target="_blank" href="https://www.openstack.org/">OpenStack</a></li>
+							<li><a target="_blank" href="http://azure.microsoft.com/">Windows Azure</a></li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Services ?</h2>
+					<ul>
+						<li>Application</li>
+						<li>Version Control</li>
+						<li>Continuous Deployment</li>
+						<li>Tests</li>
+						<li>Logs</li>
+						<li>Monitoring</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Application</h2>
+					<h3>Features</h3>
+					<p>Hot deploy (don't loose time)</p>
+					<p>Known framework (maintenance)</p>
+					<p>Easy to set up (in development and production)</p>
+					<p>Are you thinking about the right use case ? (adapt yourself to the framework before adapting the framework to you)</p>
+					<h3>Spring Boot</h3>
+				</section>
+				<section>
+					<h2>Version control system</h2>
+					<h3>Why ?</h3>
+					<p>Source of the need</p>
+					<p>Base concepts</p>
+					<h3>Git</h3>
+					<p><a target="_blank" href="https://www.atlassian.com/dms/wac/images/landing/git/atlassian_git_cheatsheet.pdf">Cheat sheet</a></p>
+					<p><a target="_blank" href="http://nvie.com/posts/a-successful-git-branching-model/">Branching model</a></p>
+					<p><a target="_blank" href="https://www.atlassian.com/git/tutorials/comparing-workflows/">From centralized to decentralized</a></p>
+				</section>
+				<section>
+					<h2>Continuous Deployment</h2>
+					<h3>Why ?</h3>
+					<p>Source of the need</p>
+					<p>Base concepts</p>
+					<h3>Features</h3>
+					<h3>Jenkins</h3>
+					<p><a target="_blank" href="https://www.atlassian.com/dms/wac/images/landing/git/atlassian_git_cheatsheet.pdf">Cheat sheet</a></p>
+					<p><a target="_blank" href="http://nvie.com/posts/a-successful-git-branching-model/">Branching model</a></p>
+					<p><a target="_blank" href="https://www.atlassian.com/git/tutorials/comparing-workflows/">From centralized to decentralized</a></p>
+				</section>
+
+
+				-->
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/tagcloud/tagcloud.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
